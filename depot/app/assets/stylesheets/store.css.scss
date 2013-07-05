@@ -4,11 +4,11 @@
 
 .store {
   h1 {
-    margin: 0;
-    padding-bottom: 0.5em;
-    font: 150% sans-serif;
-    color: #226;
-    border-bottom: 3px dotted #77d;
+    margin:0;
+    padding-bottom:0.5em;
+    font:150% sans-serif;
+    color:#226;
+    border-bottom:3px dotted #77d;
   }
   
   /* An entry in the store catalog */
@@ -34,17 +34,17 @@
      color: #227;
    }
    
-   p, div.price_line {
+   p,div.price_line {
      margin-left: 100px;
      margin-top: 0.5em;
      margin-bottom: 0.8em;
      
-     form, div{
+     form,div{
        display: inline;
      }
    }
    
-   .price {
+   .price{
      color: #44a;
      font-weight: bold;
      margin-right: 3em;
