@@ -32,7 +32,7 @@ class ProductTest < ActiveSupport::TestCase
     product = Product.new(title:       products(:ruby).title,
                           description: "yyy",
                           price:       1,
-                          iamge_url:   "fred.gif")
+                          image_url:   "fred.gif")
                           
     assert !product.save
     assert_equal I18n.translate('activerecord.errors.messages.taken'),
