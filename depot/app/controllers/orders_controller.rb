@@ -2,8 +2,12 @@ class OrdersController < ApplicationController
   # GET /orders
   # GET /orders.json
   def index
+<<<<<<< HEAD
     @orders = Order.paginate page: params[:page], order: 'created_at desc',
      per_page: 10
+=======
+    @orders = Order.all
+>>>>>>> f178452ec2dc11c5f1d1bbb93f6fa08c1f9c9bec
 
     respond_to do |format|
       format.html # index.html.erb
